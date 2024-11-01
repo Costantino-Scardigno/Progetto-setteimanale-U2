@@ -39,6 +39,12 @@ header button {
     border: none;
 }
 
+
+header button:hover {
+    background-color:#555757;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000606, 0 0 15px #ecf3f3, 0 0 25px #838585, 0 0 100px #a2abab;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -92,6 +98,35 @@ section button {
     font-style: normal;
     font-size: 1.3rem;;
 }
+
+section button:hover {
+    background-color:#555757;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000606, 0 0 15px #ecf3f3, 0 0 25px #838585, 0 0 100px #a2abab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hero {
     padding-block: 5rem;
 }
@@ -129,6 +164,12 @@ article {
 
 }
 
+.containerarticle img {
+    vertical-align: sub;
+}
+
+
+
 .containerarticle p {
     font-weight: 500;
     margin-top: 8px;
@@ -139,6 +180,7 @@ article {
     font-weight: 300;
     margin-top: 10px;
     font-size: 1rem;
+    color: lightslategray;;
 }
 
 .cont1 {
@@ -164,4 +206,63 @@ article {
 
 .cont1 p +  p {
     font-weight: 400;
+}
+
+.containercards {
+    display: flex;
+    margin-top: 48px;
+    flex-direction: column;
+}
+
+.firtscard {
+    display: flex;
+    align-items: center;
+
+}
+
+.containerarticle2 {
+    width: 39%;
+    margin-bottom: 20px;
+}
+
+
+.containerarticle2 h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 8px;
+    font-size: 0.9rem;
+    
+}
+
+.containerarticle2 p {
+    font-weight: 800;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    color: #191919;
+}
+.containerarticle2 p + p {
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: lightslategray;;
+}
+.containercards .bookmark {
+    margin-left: 450px;
+    position: relative;
+    bottom: 25px;
+}
+
+.imgcard {
+    vertical-align: sub;
+    width: 58% ;
+}
+
+
+.containercards span {
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 52%;
+    padding-left: 8px;
+    padding-right: 8px;
 }
