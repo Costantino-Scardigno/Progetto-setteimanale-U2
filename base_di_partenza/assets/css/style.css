@@ -22,7 +22,19 @@ header {
     border-bottom: 2px solid;
     border-bottom-color: #19191985;
     padding-inline: 10rem;
+    position: sticky;
+    top: 0px;
+    transition: background-color 0.3s;
 }
+
+
+.scroll {
+    background-color: white;
+    color: black
+  
+}
+
+
 
 
 .contlogo {
@@ -35,7 +47,7 @@ header {
 
 
 header button {
-    background-color: #FFC017;
+    background-color: transparent;
     border: none;
 }
 
@@ -51,13 +63,20 @@ header button:hover {
 }
 
 
-.Getstart{
+ .Getstart {
     background-color: black;
     color: white;
     width: 110%;
     border-radius: 20px;
     height: 33px;
     margin-left: 16px;
+}
+
+
+#btngreen {
+   background-color: green;
+   color: black;
+
 }
 
 main {
@@ -100,31 +119,10 @@ section button {
 }
 
 section button:hover {
-    background-color:#555757;
+    background-color:#1b5d5d;
     cursor: pointer;
     box-shadow: 0 0 5px #000606, 0 0 15px #ecf3f3, 0 0 25px #838585, 0 0 100px #a2abab;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .hero {
