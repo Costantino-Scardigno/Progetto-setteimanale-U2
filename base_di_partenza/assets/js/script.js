@@ -26,3 +26,19 @@ window.addEventListener('scroll', () => {
     button.id= " ";
   }
 });
+
+
+
+const aside= document.querySelector("aside")
+const scrollPoint3 = 700;
+
+window.addEventListener('scroll', () => {
+  
+  if (window.scrollY > scrollPoint3) {
+    
+    aside.classList.add('stick');
+  } else {
+    
+    aside.classList.remove('stick');
+  }
+});

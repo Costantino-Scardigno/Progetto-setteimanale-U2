@@ -147,11 +147,32 @@ article {
 }
 
 
+.bigcontainer {
+    display: flex;
+
+}
+
+
+
+
+
 .containerarticle {
-    width: 33%;
+    width: 29%;
     margin-bottom: 20px;
 }
 
+
+.num {
+    font-family: sans-serif;
+    float: left;
+    margin-right: 8px;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #e6e7e7;
+    letter-spacing: -2px;
+    display: flex;
+    margin-top: 15px;
+}
 
  .containerarticle h3 {
     font-family: "Roboto", sans-serif;
@@ -215,6 +236,7 @@ article {
 .firtscard {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -264,3 +286,60 @@ article {
     padding-left: 8px;
     padding-right: 8px;
 }
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    width: 33%;
+  }
+  
+  aside p {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-style: bold;
+  }
+  
+  .btnright {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .btnright button {
+    background-color: white;
+    border-color: #7977750f;
+    font-size: 0.9rem;
+    color: #797775a8;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    margin: 0.3rem;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+  .Link {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Link a {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #797775c5;
+  }
+  
+  .stick {
+    position: sticky;
+    top: 72px;
+  }
+  
