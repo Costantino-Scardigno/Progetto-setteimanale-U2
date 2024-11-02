@@ -53,10 +53,11 @@ header button {
 
 
 header button:hover {
-    background-color:#555757;
+    background-color: #1b5d5d;
     cursor: pointer;
-    box-shadow: 0 0 5px #000606, 0 0 15px #ecf3f3, 0 0 25px #838585, 0 0 100px #a2abab;
+    border-radius: 20px;
 }
+
 .navbar {
     display: flex;
     align-items: center;
@@ -121,8 +122,9 @@ section button {
 section button:hover {
     background-color:#1b5d5d;
     cursor: pointer;
-    box-shadow: 0 0 5px #000606, 0 0 15px #ecf3f3, 0 0 25px #838585, 0 0 100px #a2abab;
+    box-shadow: 0 0 5px #000606, 0 0 15px #ecf3f3, 0 0 15px #838585, 0 0 20px #A2ABAB;
 }
+
 
 
 .hero {
@@ -162,6 +164,10 @@ article {
 }
 
 
+
+
+
+
 .num {
     font-family: sans-serif;
     float: left;
@@ -173,6 +179,10 @@ article {
     display: flex;
     margin-top: 15px;
 }
+
+
+
+
 
  .containerarticle h3 {
     font-family: "Roboto", sans-serif;
@@ -237,6 +247,14 @@ article {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+
+
+.firtscard:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 
 }
 
@@ -324,6 +342,13 @@ aside {
     border-radius: 4px;
   }
   
+
+
+
+  .btnright button:hover {
+
+    transform: scale(1.1);
+  }
   .Link {
     margin-top: 1rem;
     display: flex;
@@ -333,12 +358,18 @@ aside {
   .Link a {
     font-weight: 600;
     margin-top: 1rem;
-    margin-right: 2rem;
+    margin-right: 1.6rem;
     text-decoration: none;
     font-size: 0.8rem;
     color: #797775c5;
   }
   
+
+
+  .Link a:hover{
+    transform: scale(1.1);
+  }
+
   .stick {
     position: sticky;
     top: 5px;
