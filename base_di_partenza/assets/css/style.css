@@ -293,6 +293,7 @@ aside {
     flex-direction: column;
     padding-top: 4rem;
     width: 33%;
+    align-self: flex-start;
   }
   
   aside p {
@@ -340,6 +341,6 @@ aside {
   
   .stick {
     position: sticky;
-    top: 72px;
+    top: 5px;
   }
   

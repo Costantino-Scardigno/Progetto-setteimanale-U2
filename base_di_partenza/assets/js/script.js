@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
 
 
 const aside= document.querySelector("aside")
-const scrollPoint3 = 700;
+const scrollPoint3 = 200;
 
 window.addEventListener('scroll', () => {
   
