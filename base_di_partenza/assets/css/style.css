@@ -25,6 +25,7 @@ header {
     position: sticky;
     top: 0px;
     transition: background-color 0.3s;
+    z-index: 999;
 }
 
 
@@ -138,6 +139,7 @@ main .trend {
   font-weight: 700;
   font-style: normal;
   color: #191919;
+  padding-left: 60px;
 }
 article {
     display: flex;
@@ -145,7 +147,8 @@ article {
     font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-inline: 40px;
+  padding-left: 60px;
+  
 }
 
 
@@ -159,7 +162,7 @@ article {
 
 
 .containerarticle {
-    width: 29%;
+    width: 33%;
     margin-bottom: 20px;
 }
 
@@ -177,7 +180,7 @@ article {
     color: #e6e7e7;
     letter-spacing: -2px;
     display: flex;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 
@@ -221,7 +224,7 @@ article {
 }
 .cont1 img {
     border-radius: 20px;
-    width: 6%
+    width: 5%
 }
 
 .cont1 h3 {
@@ -255,6 +258,7 @@ article {
 .firtscard:hover {
     transform: scale(1.1);
     cursor: pointer;
+    
 
 }
 
