@@ -42,3 +42,25 @@ window.addEventListener('scroll', () => {
     aside.classList.remove('stick');
   }
 });
+
+
+const allPaths = document.querySelectorAll('path');
+
+const randomPaths = [];
+
+while (randomPaths.length < 100) {
+  
+  const randomIndex = Math.floor(Math.random() * allPaths.length);
+
+  if (!randomPaths.includes(allPaths[randomIndex])) {
+    randomPaths.push(allPaths[randomIndex]);
+  }
+}
+
+function addClass() {
+  randomPaths.forEach((path) => {
+    path.classList.toggle('animation');
+  });
+}
+
+setInterval(addClass, 1000);

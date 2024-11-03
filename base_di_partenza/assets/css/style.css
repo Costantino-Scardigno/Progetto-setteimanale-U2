@@ -126,7 +126,10 @@ section button:hover {
     box-shadow: 0 0 5px #000606, 0 0 15px #ecf3f3, 0 0 15px #838585, 0 0 20px #A2ABAB;
 }
 
-
+.animation {
+    opacity: 0;
+  transition: opacity 0.333s ease-in-out;
+}
 
 .hero {
     padding-block: 5rem;
